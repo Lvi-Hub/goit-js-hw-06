@@ -6,4 +6,3 @@ itemEl.forEach((item) => {
   console.log(`Category: ${item.firstElementChild.innerHTML}`);
   console.log(`Elements: ${item.lastElementChild.children.length}`);
 });
-onkeydown;
