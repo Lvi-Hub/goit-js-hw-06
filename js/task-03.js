@@ -21,5 +21,5 @@ const array = images
       `<li class="list"><img src="${image.url}" alt="${image.alt}" width= 640></li>`
   )
   .join("");
-console.log(array);
+//console.log(array);
 galeryEl.insertAdjacentHTML("beforeend", array);
