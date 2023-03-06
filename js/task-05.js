@@ -6,5 +6,3 @@ const inputText = inputFieldEl.addEventListener("input", (event) => {
     ? (output.textContent = "Anonymous")
     : (output.textContent = event.currentTarget.value);
 });
-
-console.log(inputFieldEl);
